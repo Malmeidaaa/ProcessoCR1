@@ -5,9 +5,7 @@
 }
 
 .myBackground{
-    background-image: url(https://travel.state.gov/apps/tsg-rwd/components/content/resources/Asset4.png);
-    height: 200px;
-    width: auto; }
+    background-image: url(https://travel.state.gov/apps/tsg-rwd/components/content/resources/Asset4.png)}
 
 .body{
     background-image: linear-gradient(to top, #e2f3e9 0%,   #f4fafa 100%);
@@ -16,7 +14,7 @@
     color: rgb(142, 12, 12);
     font-size: 30px;
 }
-.whats-img{
+.whats-img .photo{
     width: 100px;
     height: 100px;
 }
