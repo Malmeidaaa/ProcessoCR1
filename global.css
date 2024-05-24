@@ -18,3 +18,13 @@
     width: 100px;
     height: 100px;
 }
+.button{
+    color: white;
+
+}
+.asidebarfixo{
+    position: fixed;
+    top:0%;
+    left: 0%;
+    bottom: 0%;
+}
