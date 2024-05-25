@@ -1,13 +1,10 @@
-.bt123 {
-    display: flexbox;
-    padding: 0px 10px;
-    margin-bottom: 20px;
-}
 
 .myBackground{
-    background-image: url(https://travel.state.gov/apps/tsg-rwd/components/content/resources/Asset4.png)}
+    background-image: url("images/conceito-de-globalizacao-internacional-global-do-mapa-do-mundo.jpg");
+    background-size: cover;
+}
 
-.body{
+.body-color{
     background-image: linear-gradient(to top, #e2f3e9 0%,   #f4fafa 100%);
 }
 .title{

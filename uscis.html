@@ -9,115 +9,59 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
 </head>
-<body>
-    <header>
-        <div class="container-fluid text-center bg-dark"> 
-          <div class="row">
-            <nav class="navbar navbar">
-                <a class="navbar-brand col-sm-1 col-md-1 col-lg-1 border-none mx-auto " href="#">
-                  <img src="./images/18165.jpg" width="100" height="50" alt="Imagem da Bandeira dos Estados Unidos da America"></a>
-                  <div class="col-sm-6 col-md-7 col-lg-8 border-none mx-auto">
-                    <a href="index.html" class="text-decoration-none fs-4 fw-bolder ">
-                     PROCESSO DE VISTO DE IMIGRANTE EUA - CR1/IR1 PARA BRASILEIROS </a> 
-                    </div>
-                    <a class="navbar-brand col-sm-2 col-md-2  col-lg-2 border-none mx-auto" href="#">
-                <img src="./images/27017.jpg" width="100" height="50" alt="Imagem da Bandeira do Brasil"></a>
-            </nav>
-         </div>
-        </div>
-        <div class="container-fluid">
-            <div class="myBackground"> 
-                <div class=" gap-3 border-none">
-                    <a class="btn btn-primary btn-lg mt-5 mb-5 col-12 col-sm-12 col-md-4 col-lg-4 " href="./uscis.html" role="button">USCIS</a>
-                    <a class="btn btn-danger btn-lg mt-5 mb-5 col-12 col-sm-12 col-md-3 col-lg-3 " href="./nvc.html" role="button">NVC</a>
-                    <a class="btn btn-light btn-lg mt-5 mb-5 col-12 col-sm-12 col-md-4 col-lg-4" href="./entrevista.html" role="button">ENTREVISTA</a>
-                  </div>
+<header class="sticky-top ">
+    <div class="container-fluid text-center bg-light"> 
+        <nav class="navbar navbar  justify-content-center myBackground">
+            <a class="navbar-brand col-sm-1 col-md-1 col-lg-1 border-none mx-auto " href="#">
+              <img src="./images/18165.jpg" width="100" height="50" alt="Imagem da Bandeira dos Estados Unidos da America"></a>
+              <div class="col-sm-6 col-md-7 col-lg-8 border-none mx-auto">
+                <a href="index.html" class="text-decoration-none fs-4 fw-bolder ">
+                 PROCESSO DE VISTO DE IMIGRANTE EUA - CR1/IR1 PARA BRASILEIROS </a> 
                 </div>
-              </div>  
-        </header>
-<div class="container-fluid">
-    <div class="row flex-nowrap">
-        <div class="col-auto px-sm-2 px-0 ">
-            <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
-                <a href="#" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-                    <span class="fs-5 d-none d-sm-inline"></span>
-                </a>
-                <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link align-middle px-0">
-                            <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Dashboard</span> </a>
-                        <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
-                            <li class="w-100">
-                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 1 </a>
-                            </li>
-                            <li>
-                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 2 </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">Orders</span></a>
-                    </li>
-                    <li>
-                        <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
-                            <i class="fs-4 bi-bootstrap"></i> <span class="ms-1 d-none d-sm-inline">Bootstrap</span></a>
-                        <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
-                            <li class="w-100">
-                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 1</a>
-                            </li>
-                            <li>
-                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 2</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-grid"></i> <span class="ms-1 d-none d-sm-inline">Products</span> </a>
-                            <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
-                            <li class="w-100">
-                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 1</a>
-                            </li>
-                            <li>
-                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 2</a>
-                            </li>
-                            <li>
-                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 3</a>
-                            </li>
-                            <li>
-                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 4</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Customers</span> </a>
-                    </li>
-                </ul>
-                <hr>
-            </div>
-        </div>
-        <div class="container"> 
-            <div class="row">
-                <div class="#">
-                <h2 class="text-center mt-4 mb-3 fs-5 title"> FASE 1 </h2></div>
-                <span class="text-center mt-2 mb-2 fs-6 title" >(U.S. CITIZENSHIP AND IMMIGRATION SERVICES) - SERVIÇO DE CIDADANIA E IMIGRAÇÃO DOS EUA</span>
-              </div>
-                <p class="w-medium m-3 lh-sm text-wrap text-start fs-6 ">
-                    A fase do USCIS (Serviço de Cidadania e Imigração dos Estados Unidos) é a primeira etapa do processo de visto CR1 (Cônjuge de Residente Condicional). Nesta fase, o cônjuge americano, que é o patrocinador, inicia o processo apresentando uma petição junto ao USCIS em nome do cônjuge estrangeiro. LEMBRANDO QUE ESSA FASE É APENAS PRA PESSOAS CASADAS COM UM(A) CÔNJUGE AMERICANO em solo americano, brasileiro ou online. 
-                    A petição, conhecida como Formulário I-130, Petição para Parente Estrangeiro, é o documento oficial usado para estabelecer o relacionamento entre o cidadão americano e o cônjuge estrangeiro e iniciar o processo de imigração. O objetivo desta petição é demonstrar que o casamento é válido e que o relacionamento é legítimo.
-                    Durante esta fase, o cônjuge americano deve apresentar evidências documentais que comprovem a natureza genuína do casamento, incluindo certidões de casamento, fotos do casal, registros de comunicação, entre outros documentos. Além disso, o cônjuge americano deve pagar as taxas aplicáveis e preencher o formulário corretamente, garantindo que todas as informações estejam precisas e atualizadas.
-                    Uma vez que a petição é enviada ao USCIS, ela será processada e revisada. Se a petição for aprovada, o USCIS enviará uma notificação de aprovação ao cônjuge americano e encaminhará o caso para processamento adicional no Departamento de Estado. No entanto, se houver alguma deficiência na petição ou se forem necessárias informações adicionais, o USCIS pode solicitar esclarecimentos ou documentação adicional antes de tomar uma decisão final.
-                    É importante estar ciente de que o processo no USCIS pode levar algum tempo e pode variar dependendo da carga de trabalho do serviço e de outros fatores. Portanto, é essencial acompanhar regularmente o status da petição e responder prontamente a qualquer solicitação do USCIS para evitar atrasos no processo de imigração. O processo para solicitação para filhos do conjugue brasileiro é permitida, até os 21 anos, tambem que o casamento tenha sido realizado até os 18 anos do filho(a) beneficiario.  
-                </p>
-         <h2 class="text-center mt-4 mb-4 fs-5 title listagemdedocumentos ">
+                <a class="navbar-brand col-sm-2 col-md-2  col-lg-2 border-none mx-auto" href="#">
+            <img src="./images/27017.jpg" width="100" height="50" alt="Imagem da Bandeira do Brasil"></a>
+        </nav>
+    </div> 
+<nav id="navbar-brand" class="navbar bg-body-tertiary px-3 mb-3">
+<a class="navbar-brand text-danger" href="#">USCIS</a>
+<ul class="nav nav-pills">
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle " data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">USCIS</a>
+        <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#scrollspyHeading1">FASE 1</a></li>
+        <li><a class="dropdown-item" href="#scrollspyHeading2">DOCUMENTOS</a></li>
+        <li><a class="dropdown-item" href="#scrollspyHeading3">EVIDÊNCIAS</a></li>
+        <li><a class="dropdown-item" href="#scrollspyHeading4">APLICAÇÃO</a></li>
+        <li><a class="dropdown-item" href="#scrollspyHeading5">PÓS APLICAÇÃO</a></li>
+        <li><a class="dropdown-item" href="#scrollspyHeading6">DICAS</a></li></ul>    
+        <li class="nav-item">
+        <a class="nav-link" href="./nvc.html"> NVC </a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="./entrevista.html"> ENTREVISTA </a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="./imigrei.html"> IMIGREI </a>
+        </li>
+    </ul>
+</nav>
+</header>
+<main>
+    <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px 0px" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary" tabindex="0">
+     <h2 class="text-center mt-4 mb-3 fs-5 title" id="scrollspyHeading1"> FASE 1 </h2>
+        <span class="text-center mt-2 mb-2 fs-6 title" >(U.S. CITIZENSHIP AND IMMIGRATION SERVICES) - SERVIÇO DE CIDADANIA E IMIGRAÇÃO DOS EUA</span>
+        <p>
+        <p class="w-medium m-3 lh-sm text-wrap text-start fs-6 ">
+        A fase do USCIS (Serviço de Cidadania e Imigração dos Estados Unidos) é a primeira etapa do processo de visto CR1 (Cônjuge de Residente Condicional). Nesta fase, o cônjuge americano, que é o patrocinador, inicia o processo apresentando uma petição junto ao USCIS em nome do cônjuge estrangeiro. LEMBRANDO QUE ESSA FASE É APENAS PRA PESSOAS CASADAS COM UM(A) CÔNJUGE AMERICANO em solo americano, brasileiro ou online. <br>
+        A petição, conhecida como Formulário I-130, Petição para Parente Estrangeiro, é o documento oficial usado para estabelecer o relacionamento entre o cidadão americano e o cônjuge estrangeiro e iniciar o processo de imigração. O objetivo desta petição é demonstrar que o casamento é válido e que o relacionamento é legítimo.<br>
+        Durante esta fase, o cônjuge americano deve apresentar evidências documentais que comprovem a natureza genuína do casamento, incluindo certidões de casamento, fotos do casal, registros de comunicação, entre outros documentos. Além disso, o cônjuge americano deve pagar as taxas aplicáveis e preencher o formulário corretamente, garantindo que todas as informações estejam precisas e atualizadas.<br>
+        Uma vez que a petição é enviada ao USCIS, ela será processada e revisada. Se a petição for aprovada, o USCIS enviará uma notificação de aprovação ao cônjuge americano e encaminhará o caso para processamento adicional no Departamento de Estado. No entanto, se houver alguma deficiência na petição ou se forem necessárias informações adicionais, o USCIS pode solicitar esclarecimentos ou documentação adicional antes de tomar uma decisão final.<BR>  
+        É importante estar ciente de que o processo no USCIS pode levar algum tempo e pode variar dependendo da carga de trabalho do serviço e de outros fatores. Portanto, é essencial acompanhar regularmente o status da petição e responder prontamente a qualquer solicitação do USCIS para evitar atrasos no processo de imigração. O processo para solicitação para filhos do conjugue brasileiro é permitida, até os 21 anos, tambem que o casamento tenha sido realizado até os 18 anos do filho(a) beneficiario.  
+                </p></p>
+         <h2 class="text-center mt-4 mb-4 fs-5 title" id="scrollspyHeading2">
             LISTAGEM DE DOCUMENTOS </h2>
-        <ul class="w-medium m-3 lh-sm text-wrap text-start fs-6">
+            <p>
+        <p class="w-medium m-3 lh-sm text-wrap text-start fs-6">
             <li>Formulário i-130 - <a href="https://www.uscis.gov/sites/default/files/document/forms/i-130.pdf" target="_blank">Clique aqui para acessar </a></li>
             <li>Formulário i-130A(informações do beneficiário) - <a href="https://www.uscis.gov/sites/default/files/document/forms/i-130a.pdf">Clique aqui para acessar</a></li>
             <li>Instruções para preencher Formulários - <a href="https://www.uscis.gov/sites/default/files/document/forms/i-130instr.pdf">Clique aqui para acessar </a></li>
@@ -131,8 +75,9 @@
             <li>Cópia do passaporte do beneficiário (cônjuge brasileiro)</li>
             <li>Cópia da certidão de casamento, caso a certidão esteja em ingles, não precisa traduzir. Caso esteja em outro idioma deve ser traduz para o inglês.<a href="./modelos/Marriage Certificate translation - SAMPLE.docx"> aqui para acessar o modelo de tradução.</a>Lembrando que essa tradução deve ser feita por alguem fluente em inglês e assine a tradução. 
             </li>
-        </ul>
-        <h2 class="text-center mt-4 mb-4 fs-5 title evidencias "> EVIDÊNCIAS DE  CASAMENTO GENUÍNO </h2>
+        </p> </p>
+        <h2 class="text-center mt-4 mb-4 fs-5 title" id="scrollspyHeading3"> EVIDÊNCIAS DE  CASAMENTO GENUÍNO </h2>
+        <p>
         <ul class="w-medium m-3 lh-sm text-wrap text-start fs-6">
                 <li>Cópia de passagens de aviação de quando foram visitar um ao outro e de quando viajaram juntos</li>
                 <li> Monte uma apresentação no Power Point com fotos tiradas durante os meses de relacionamento, com legendas, organizadas em linha do tempo em um documento. É interessante fotos do casamento, viagens, dia do pedido de casamento, fotos com família e amigos, jantares românticos, despedidas no aeroporto.<a href="#">Clique para ver um exemplo</a>.</li>
@@ -153,9 +98,9 @@
                 <li> Existem outras e sempre vão depender de como é seu relacionamento</li>
             </ul>
             <span class="text-center mt-4 mb-4 fs-5 title" > Importante: Levem em consideração que as provas mais fortes são as financeiras. Evitem colocar muitas fotos. Em torno de 20 é o ideal. Valorizando fotos do casal em eventos diferentes como: viagens, aniversários de família, passeios com amigos, Natal, Ano novo, Casamento do casal e etc. Não coloquem selfies demais.</span>
-    
-    <h2 class="text-center mt-4 mb-4 fs-5 title">
-        APLICAÇÃO DA PETIÇÃO </h2>
+        </p>
+    <h2 class="text-center mt-4 mb-4 fs-5 title" id="scrollspyHeading4">APLICAÇÃO DA PETIÇÃO </h2>
+    <p>
     <p class="w-medium m-3 lh-sm text-wrap text-start fs-6">
         Cidadãos dos EUA e peticionários residentes permanentes legais que residam nos Estados Unidos devem apresentar o <a href="https://www.uscis.gov/i-130" target="_blank"> Formulário I-130, Petição para Parente Estrangeiro </a>, com os Serviços de Cidadania e Imigração dos Estados Unidos (USCIS).
         Isso pode ser feito eletronicamente ou através do processo tradicional de papel pelo correio.
@@ -180,8 +125,9 @@
         VIDEO - Preenchendo Formulário I-130A - Parte do Beneficiário - a Parte do Cidadã(o) Brasileiro</h2>
     <div class="ratio ratio-16x9 mt-3 mb-3">
             <iframe  src="https://www.youtube.com/embed/Hnz01bcUhXA" title="Form. I-130A - Passo a Passo para Preencher / Complemento do Formulário I-130 para o Visto CR1" allowfullscreen></iframe>
-    </div>
-    <h2 class="text-center mt-4 mb-4 fs-5 title"> PÓS APLICAÇÃO - Proximos passos - Siglas Service Centers </h2>
+    </div> </p>
+    <h2 class="text-center mt-4 mb-4 fs-5 title" id="scrollspyHeading5"> PÓS APLICAÇÃO - Proximos passos - Siglas Service Centers </h2>
+    <p>
     <ul class="w-medium m-3 lh-sm text-wrap text-start fs-6">
         <li> Depois de feita a petição, o Petitioner (o cidadão americano/green card holder da relação) irá receber via e-mail e correios NOA1,  primeiro Notice of Action, quando o USCIS recebe o seu I-130 e te envia um “recibo” com o seu PD, que é Priority Date, data que começa a contar o processamento do seu caso (vem no recibo/pdf). </li>
         <li> Service Center: tem vários centros de “processamento” espalhados pelos Estados Unidos. Seu processo vai ser distribuído para um deles aleatoriamente (não tem como escolher pra qual centro vai o seu processo). Cada service center tem uma sigra que irá indicar para onde seu caso foi. Os tres primeiros caracteres do seu Case Number corresponde ai seu Service Center. Nomes abaixo: 
@@ -198,8 +144,9 @@
     <ul class="w-medium m-3 lh-sm text-wrap text-start fs-6">
         <li> LAWFULLY - My USCIS Case Status Tracker - Dispónivel para IOS e Android </li>
         <li> CASE TRACKER for USCIS - Dispónivel para IOS e Android </li>
-    </ul>
-    <h2 class="text-center mt-4 mb-4 fs-5 title"> DICAS </h2>
+    </ul></p>
+    <h2 class="text-center mt-4 mb-4 fs-5 title" id="scrollspyHeading6"> DICAS </h2>
+    <p>
     <h2 class="text-center mt-4 mb-4 fs-5 title"> TÁTICA DO VISTO K3 - VISTO EXTINTO </h2>
     <p class="w-medium m-3 lh-sm text-wrap text-start fs-6">
         O visto K-3 é uma categoria de visto não imigrante que não está disponível(NÃO É MAIS ACEITO, O PROCESSO SE TORNA CR1|IR1)    para cônjuges de cidadãos americanos que desejam entrar nos Estados Unidos enquanto aguardam a conclusão do processo de imigração do visto CR1 | IR1  para residência permanente (Green Card). Aqui estão algumas informações importantes sobre o visto K-3:
@@ -245,7 +192,7 @@
         VÍDEO - Explicando sobre o Visto K3</h2>
         <div class="ratio ratio-16x9 mt-3 mb-3">
         <iframe  src="https://www.youtube.com/embed/tYGNx4qCVBU" title="Visto K3 - O que é o visto K3. Para que serve? Como enviar? Ajuda no Visto CR1? Processo de Visto de Esposa(o)"allowfullscreen></iframe>
-    </p></div>
+    </div>
     <h2 class="text-center mt-4 mb-4 fs-5 title">  VACINAÇÃO OBRIGÁTORIA PARA FASE NVC
        </h2>
         <p class="w-medium m-3 lh-sm text-wrap text-start fs-6"> 
@@ -282,10 +229,10 @@
         <p class="w-medium m-3 lh-sm text-wrap text-start fs-6"> </a>             
     <h2 class="text-center mt-4 mb-4 fs-5 title"> 
             </h2>
-        <p class="w-medium m-3 lh-sm text-wrap text-start fs-6"> </a>          </div>
-        </div>
+        <p class="w-medium m-3 lh-sm text-wrap text-start fs-6"> </a>  </p>        
+
     </div>
-</div>
+</main>
 
 <footer class="bg-dark text-center text-white mt-4">
     <div class="container-fluid p-4 ">
@@ -303,5 +250,6 @@
       <a class="text-white text-decoration-none"> Designer e Programação desenvolvido por Matheus Almeida. Todos os direitos reservados.</a>
     </div>
   </footer>
+  
 </html>
 </body>
