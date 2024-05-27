@@ -3,7 +3,11 @@
     background-image: url("images/conceito-de-globalizacao-internacional-global-do-mapa-do-mundo.jpg");
     background-size: cover;
 }
-
+.ratio-4x3 {
+@include media-breakpoint-up(md) {
+    --bs-aspect-ratio: 50%; // 2x1
+  }
+}
 .body-color{
     background-image: linear-gradient(to top, #e2f3e9 0%,   #f4fafa 100%);
 }
